@@ -2,10 +2,10 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 const header = () => {
   return (
-    <div className="bg-[#121212] text-white py-5 px-12 w-full">
+    <div className="bg-[#121212]  text-white py-5 px-12 w-full">
       <div className="flex justify-between  items-center">
         <Image
-          src="/logowhite.svg"
+          src="/LogoWhite.svg"
           alt="logo"
           width={0}
           height={0}
