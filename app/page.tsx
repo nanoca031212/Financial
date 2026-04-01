@@ -1,3 +1,4 @@
+import Estrutura from "./components/estrutura";
 import Hero from "./components/hero";
 import Navbar from "./components/navbar";
 import Section from "./components/section";
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <Navbar />
       <Section />
+      <Estrutura />
     </div>
   );
 }
