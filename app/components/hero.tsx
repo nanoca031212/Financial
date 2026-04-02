@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ExperienceCard from "./ExperienceCard";
 
 const hero = () => {
   return (
@@ -19,6 +20,8 @@ const hero = () => {
           clareza e consistência
         </h1>
       </div>
+
+      
 
       <div className="absolute bottom-10 left-1/2 -translate-x-1/2 w-full flex justify-between items-end px-6 md:px-16  max-w-[1600px] z-10">
         <button className="flex items-center gap-2 border border-white/40 text-white/80 px-4 py-1.5 text-sm hover:text-white hover:border-white transition-all bg-black/10 backdrop-blur-sm md:bg-transparent md:backdrop-blur-none">
